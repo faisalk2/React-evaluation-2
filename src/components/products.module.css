@@ -1,0 +1,14 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
